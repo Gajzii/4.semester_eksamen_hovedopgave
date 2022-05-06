@@ -48,6 +48,17 @@ img {
   height: auto;
 }
 
+video {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+@media (max-width: 600px){
+  video {
+    width: 100%;
+  }
+}
+
 /* ---------- topbar styling ---------- */
 .topbar {
   background-color: var(--green);
